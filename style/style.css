@@ -1,0 +1,51 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+header{
+    color: white;
+    background-color: #3a3a47;
+    line-height: 70px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* main */
+main{
+    height: calc(100vh - 70px);
+    background-color: #2a2a41;
+}
+
+.container{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 4em;
+}
+
+.card{
+    background-color: #3a3a47;
+    width: calc(100% / 5 - 10px);
+    margin-right: 10px;
+    padding: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+    color: white;
+}
+
+h2{
+    margin-bottom: .5em;
+}
+
+.info{
+    padding: .5em 0;
+}
+
+img{
+    width: 100%;
+}
