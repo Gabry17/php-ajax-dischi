@@ -16,7 +16,6 @@ header{
 
 /* main */
 main{
-    height: calc(100vh - 70px);
     background-color: #2a2a41;
 }
 
@@ -48,4 +47,10 @@ h2{
 
 img{
     width: 100%;
+}
+
+h3{
+    color: white;
+    text-align: center;
+    padding-top: 1em;
 }

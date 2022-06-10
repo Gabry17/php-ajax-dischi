@@ -20,8 +20,21 @@
 
     <!-- main -->
     <main id="root">
+        <h3>PHP</h3>
         <?php include "__DIR__" . "/../components/main.php"; ?>
-        
+        <h3>VUE</h3>
+        <div class="container">
+            <div class="card" v-for="item in database">
+                <div class="img">
+                    <img :src="item.poster" :alt="item.title">
+                </div>
+                <div class="info">
+                    <h2>{{ item.title }}</h2>
+                    <p>{{ item.author }}</p>
+                    <p>{{ item.year }}</p>
+                </div>
+            </div>
+        </div>
     </main>
     <!-- /main -->
 
